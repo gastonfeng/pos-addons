@@ -16,8 +16,8 @@ class PosDetailsCustom(pos_details):
             self.discount += r['total_discount']
         return res
 
-    def __init__(self, cr, uid, name, context):
-        super(PosDetailsCustom, self).__init__(cr, uid, name, context=context)
+    def __init__(self,  name, context):
+        super(PosDetailsCustom, self).__init__( name, context=context)
         self.localcontext.update({
             'pos_sales_details_custom': self._pos_sales_details_custom,
         })
