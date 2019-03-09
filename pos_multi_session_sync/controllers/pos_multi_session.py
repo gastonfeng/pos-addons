@@ -2,11 +2,13 @@
 # Copyright 2017 Kolushov Alexandr <https://it-projects.info/team/KolushovAlexandr>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 import datetime
-import logging
 import json
+import logging
+
 import odoo
 from odoo.http import request
 from odoo.tools.misc import DEFAULT_SERVER_DATETIME_FORMAT
+
 _logger = logging.getLogger(__name__)
 
 

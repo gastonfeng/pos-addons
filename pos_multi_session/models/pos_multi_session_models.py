@@ -5,6 +5,7 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
 import logging
+
 from odoo import api
 from odoo import fields
 from odoo import models

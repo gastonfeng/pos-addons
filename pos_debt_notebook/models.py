@@ -7,14 +7,16 @@
 # Copyright 2018 Kolushov Alexandr <https://it-projects.info/team/KolushovAlexandr>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
-from odoo import models, fields, api
+import logging
 from datetime import datetime
-from pytz import timezone
-import pytz
+
 import odoo.addons.decimal_precision as dp
+import pytz
+from pytz import timezone
+
+from odoo import models, fields, api
 from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
 from odoo.tools import float_is_zero
-import logging
 
 _logger = logging.getLogger(__name__)
 

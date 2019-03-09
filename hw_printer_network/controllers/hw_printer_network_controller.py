@@ -2,14 +2,14 @@
 # Copyright 2018 Tom Blauwendraat <tom@sunflowerweb.nl>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
-from openerp import http
 import logging
-import time
 import socket
 import subprocess
 import threading
+import time
 import traceback
 
+from openerp import http
 
 _logger = logging.getLogger(__name__)
 

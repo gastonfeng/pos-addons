@@ -1,8 +1,10 @@
 import logging
+from datetime import timedelta
+
+import pytz
+
 from odoo import api, models, fields, _
 from odoo.exceptions import UserError
-import pytz
-from datetime import timedelta
 
 _logger = logging.getLogger(__name__)
 

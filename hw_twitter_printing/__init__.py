@@ -1,8 +1,8 @@
 import logging
 import threading
+
 from odoo.tools import config
 from . import escpos_encoding
-
 
 _logger = logging.getLogger(__name__)
 

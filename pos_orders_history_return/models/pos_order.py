@@ -1,10 +1,12 @@
 # Copyright 2018 Dinar Gabbasov <https://it-projects.info/team/GabbasovDinar>
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 
+import logging
+
+import psycopg2
+
 from odoo import models, api, fields, tools, _
 from odoo.tools import float_is_zero
-import psycopg2
-import logging
 
 _logger = logging.getLogger(__name__)
 

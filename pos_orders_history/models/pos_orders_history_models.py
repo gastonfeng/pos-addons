@@ -2,9 +2,9 @@
 # Copyright 2018 Artem Losev
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 
-from odoo import fields, models, api
 import re
 
+from odoo import fields, models, api
 
 CHANNEL = "pos_orders_history"
 

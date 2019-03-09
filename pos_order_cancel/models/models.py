@@ -1,7 +1,9 @@
-from odoo import fields, models, api
-from functools import partial
 from datetime import datetime
+from functools import partial
+
 import pytz
+
+from odoo import fields, models, api
 
 
 class PosCancelledReason(models.Model):

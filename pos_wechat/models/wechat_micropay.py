@@ -1,10 +1,11 @@
 # Copyright 2018 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
-import logging
 import json
+import logging
+
+from odoo.addons.qr_payments.tools import odoo_async_call
 
 from odoo import models, api
-from odoo.addons.qr_payments.tools import odoo_async_call
 
 _logger = logging.getLogger(__name__)
 
