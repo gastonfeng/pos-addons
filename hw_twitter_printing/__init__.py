@@ -1,6 +1,5 @@
 import logging
 import threading
-
 from odoo.tools import config
 from . import escpos_encoding
 
